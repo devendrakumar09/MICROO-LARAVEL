@@ -34,7 +34,7 @@
       <!-- end loader -->
       <div id="mySidepanel" class="sidepanel">
          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-         <a class="active" href="index.blade.php">Home</a>
+         <a class="active" href="/">Home</a>
          <a href="about.blade.php">About</a>
          <a href="services.blade.php">Services</a>
          <a href="shop.blade.php">Shop</a>

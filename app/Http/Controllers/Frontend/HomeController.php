@@ -10,7 +10,7 @@ class HomeController extends Controller
     //
     public function home(){
         // dd("hello");
-        return "Welocme";
+        // return "hello";
         return view('/index');
     }
 }

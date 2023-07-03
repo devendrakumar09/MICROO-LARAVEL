@@ -18,10 +18,11 @@ use App\Http\Controllers\Frontend\ServicesController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/home',"HomeController@home")->name('home');
+// Route::get('/', function () {
+
+//     return view('welcome');
+// });
+Route::get('/',[HomeController::class,'home'])->name('home');
 
 Route::get('/about',[AboutController::class,'index']);
 // Route::get('/about',[AboutController::class,'index'])->name('about');
